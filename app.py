@@ -5,7 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # Load your earthquake dataset
-df = pd.read_csv('earth_data.csv')  # Replace with your actual file
+df = pd.read_csv('data/earth_data.csv')  # Replace with your actual file
 
 # Convert Date column to datetime and extract year and month
 df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
